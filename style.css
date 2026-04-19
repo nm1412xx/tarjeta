@@ -99,3 +99,24 @@ body {
 .contacto a {
     color: #38BDF8;
 }
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.contacto img {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* efecto pro */
+.contacto img:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+}
