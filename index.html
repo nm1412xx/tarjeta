@@ -3,108 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio | Nicolás Mejías</title>
+    <title>Tarjeta de Perfil Personal</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- NAVBAR -->
-<header class="navbar">
-    <h2>NM1412XX</h2>
-    <nav>
-        <a href="#sobre">Sobre mí</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
-    </nav>
-</header>
+    <main class="tarjeta">
 
-<!-- HERO -->
-<section class="hero">
-    <img src="img-redes-foto-perfil/Gato elegante.jpg" alt="Foto de perfil">
-    <h1>Nicolás Ariel Mejías Osses</h1>
-    <p>Desarrollador web en formación</p>
-</section>
-
-<!-- SOBRE MI -->
-<section id="sobre" class="seccion">
-    <h2>Sobre mí</h2>
-    <p>
-        Soy estudiante de segundo año medio con interés en la programación, especialmente en el desarrollo web.
-        Me enfoco en crear sitios con HTML y CSS, trabajando tanto la estructura como el diseño.
-    </p>
-
-    <div class="grid">
-        <div class="card">
-            <h3>🛠️ Habilidades</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Python básico</li>
-            </ul>
+        <!-- Imagen -->
+        <div class="img-container">
+            <img src="img-redes-foto-perfil/Gato elegante.jpg" alt="Foto de perfil">
         </div>
 
-        <div class="card">
-            <h3>🎯 Intereses</h3>
+        <h1>🧑‍💻 Nicolás Ariel Mejías Osses</h1>
+
+        <!-- Sobre mí -->
+        <section>
+            <h2>Sobre mí</h2>
+            <p>
+                Soy estudiante de segundo año medio con interés en la programación, especialmente en el desarrollo web. 
+                Me enfoco en la creación de sitios web utilizando HTML y CSS, desarrollando tanto la estructura como el diseño visual.
+                <br><br>
+                Cuento con varios proyectos personales donde practico diseño, organización de contenido e interacción básica. 
+                Me interesa seguir aprendiendo nuevas tecnologías para mejorar la calidad y funcionalidad de mis sitios.
+                <br><br>
+                Fuera del desarrollo web, disfruto la música, sé tocar ukelele a nivel básico y practico resolución de cubo Rubik, 
+                logrando tiempos menores a 4 minutos.
+            </p>
+        </section>
+
+        <!-- Habilidades -->
+        <section>
+            <h2>🛠️ Habilidades</h2>
+            <h3>💻 Programación</h3>
             <ul>
-                <li>Cubo Rubik (<4 min)</li>
-                <li>Ukelele</li>
+                <li>HTML – estructura de páginas web</li>
+                <li>CSS – diseño y estilos</li>
+                <li>Python – nivel básico</li>
+            </ul>
+        </section>
+
+        <!-- Intereses -->
+        <section>
+            <h2>🎯 Intereses</h2>
+            <ul>
+                <li>Cubo Rubik – resolución en menos de 3 minutos</li>
+                <li>Ukelele – nivel básico</li>
                 <li>Música</li>
             </ul>
-        </div>
-    </div>
-</section>
+        </section>
 
-<!-- PROYECTOS -->
-<section id="proyectos" class="seccion">
-    <h2>🚀 Proyectos</h2>
+        <!-- Formación -->
+        <section>
+            <h2>🎓 Formación académica</h2>
+            <ul>
+                <li>Prebásica
+                    <ul>
+                        <li>Colegio Santa Teresa</li>
+                    </ul>
+                </li>
+                <li>Educación básica
+                    <ul>
+                        <li>Complejo Educacional Consolidada</li>
+                        <li>Escuela Abraham Lincoln</li>
+                    </ul>
+                </li>
+                <li>Educación media
+                    <ul>
+                        <li>Colegio Saltairam</li>
+                        <li>Colegio Puente Maipo (actualidad)</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
 
-    <div class="proyectos-grid">
+        <!-- Proyectos -->
+        <section>
+            <h2>🚀 Proyectos</h2>
 
-        <div class="proyecto">
-            <h3>Error 404</h3>
-            <p>Página personalizada para rutas inexistentes.</p>
-            <a href="https://nm1412xx.github.io/error/" target="_blank">Ver proyecto</a>
-        </div>
+            <article>
+                <h3>⚠️ Página de Error 404</h3>
+                <p>Página personalizada que se muestra cuando el usuario intenta acceder a una ruta inexistente.</p>
+                <a href="https://nm1412xx.github.io/error/" target="_blank">🔗 Ver sitio</a>
+            </article>
 
-        <div class="proyecto">
-            <h3>Japón</h3>
-            <p>Galería interactiva con información turística.</p>
-            <a href="https://nm1412xx.github.io/japan/" target="_blank">Ver proyecto</a>
-        </div>
+            <article>
+                <h3>🇯🇵 Sitio sobre Japón</h3>
+                <p>Sitio web informativo con enfoque visual sobre lugares de Japón.</p>
+                <a href="https://nm1412xx.github.io/japan/" target="_blank">🔗 Ver sitio</a>
+            </article>
 
-        <div class="proyecto">
-            <h3>Chile</h3>
-            <p>Galería turística enfocada en lugares de Chile.</p>
-            <a href="https://nm1412xx.github.io/chile/" target="_blank">Ver proyecto</a>
-        </div>
+            <article>
+                <h3>🇨🇱 Sitio sobre Chile</h3>
+                <p>Galería interactiva con enfoque turístico sobre distintos lugares de Chile.</p>
+                <a href="https://nm1412xx.github.io/chile/" target="_blank">🔗 Ver sitio</a>
+            </article>
 
-        <div class="proyecto">
-            <h3>Top 5 Indie</h3>
-            <p>Listado interactivo con información detallada de juegos.</p>
-             <a href="https://nm1412xx.github.io/top-5-indi/" target="_blank">Ver proyecto</a>
-        </div>
+            <article>
+                <h3>🎮 Top 5 Juegos Indie</h3>
+                <p>
+                    Sitio en modo oscuro donde se presentan 5 juegos con información detallada, sinopsis y enlaces a trailers.
+                </p>
+            </article>
 
-    </div>
-</section>
+        </section>
 
-<!-- CONTACTO -->
-<section id="contacto" class="seccion">
-    <h2>📬 Contacto</h2>
+    </main>
 
-    <div class="contacto">
+    <!-- Contacto -->
+    <aside class="contacto">
+        <h2>Contacto</h2>
+
         <a href="https://www.instagram.com/nm1412xx/" target="_blank">
-            <img src="img-redes-foto-perfil/Instagram.jpg" alt="Instagram">
+            <img src="img-redes-foto-perfil/Instagram.jpg" alt="Instagram" class="link">
+        </a>
+
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nm1412xx@gmail.com" target="_blank">
+            <img src="img-redes-foto-perfil/gmail.jpg" alt="Correo" class="link">
         </a>
 
         <a href="https://github.com/nm1412xx" target="_blank">
-            <img src="img-redes-foto-perfil/github.jpg" alt="GitHub">
+            <img src="img-redes-foto-perfil/github.jpg" alt="GitHub" class="link">
         </a>
-
-        <a href="mailto:nm1412xx@gmail.com">
-            <img src="img-redes-foto-perfil/gmail.jpg" alt="Correo">
-        </a>
-    </div>
-</section>
+    </aside>
 
 </body>
 </html>
