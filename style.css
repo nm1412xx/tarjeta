@@ -36,20 +36,6 @@ body {
     display: flex;
     justify-content: center;
 }
-
-.github {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-
-    background: rgba(0, 0, 0, 0.6);
-    padding: 12px 18px;
-    border-radius: 999px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 /* =========================
    TIPOGRAFÍA
 ========================= */
@@ -166,6 +152,25 @@ a:hover {
     right: 20px;
 
     display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(30, 38, 57, 0.6);
+    border-radius: 50px;
+    width: 120px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.github {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+   display: flex;
     flex-direction: column;
     gap: 10px;
 
